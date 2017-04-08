@@ -30,6 +30,6 @@
 	#prod_page > .bloc_prod { height: auto; display: inline-block; margin: 10px; border: 1px solid #ccc; box-shadow: 1px 1px 0px 1px #ccc; background-color: #fcfcfc;}
 	#prod_page > h2 { text-align: center; font-size: 25px; font-weight: bold; padding-bottom: 15px; }
 		.bloc_prod > h3 { font-size: 15px; text-shadow: 1px 1px 1px 0px #ccc; text-align: center; font-weight: bold; padding-top: 10px; }
-		.bloc_prod > div { height: 150px; width: 150px; background-image: url("../images/pokemon/front/1.png"); background-repeat: no-repeat; background-position: center;}
+		.bloc_prod > div { height: 150px; width: 150px; background-image: url("../img/front/1.png"); background-repeat: no-repeat; background-position: center;}
 		.bloc_prod > input[type=button] { line-height: 5px; text-align: center; display: block; padding: 10px;  font-size: 16px; color: #fff; margin: auto; width: 120px; height: 30px; border: none; border: 1px solid #ddd; border-bottom: 4px solid #ddd; cursor: pointer; background-color: #c55; }
 
