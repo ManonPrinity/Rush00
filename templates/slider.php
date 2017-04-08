@@ -2,19 +2,19 @@
 <div class="slideshow-container">
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
-    <img src="http://toucharcade.com/wp-content/uploads/2016/07/landscape-1456483171-pokemon2.jpg" style="width:100%">
+    <img src="https://s-media-cache-ak0.pinimg.com/736x/fd/d7/21/fdd72115d88a69e9de8f8f98b6620315.jpg" style="width:100%">
     <div class="text">Image 1</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
-    <img src="http://assets.pokemon.com/assets//cms2/img/play-games/_tiles/alolan_volcanic_panic/alolan-volcanic-panic-169.jpg" style="width:100%">
+    <img src="https://s-media-cache-ak0.pinimg.com/736x/a5/58/6a/a5586acfff0d5ddd5e3fd3b2bf9eda6b.jpg" style="width:100%">
     <div class="text">mage 2</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
-    <img src="http://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season19/season19_ep11_ss01.jpg" style="width:100%">
+    <img src="https://s-media-cache-ak0.pinimg.com/736x/be/f5/cc/bef5cc61419d0a5f352d503d68dc91ef.jpg" style="width:100%">
     <div class="text">Image 3</div>
   </div>
 

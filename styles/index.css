@@ -1,10 +1,15 @@
+
+/* Header */
 #header { display: block; height: auto; background-color: #c55; box-shadow: 0px 0px 5px 5px #ccc;}
 	#header > h1 { font-size: 50px; font-weight: bold; text-align: center; padding: 25px; color: #fff; text-shadow: 1px 0px 1px #ccc; }
 
+/* Nav-Bar */
 #nav-bar { height: 50px; background-color: #ccc; box-shadow: 5px 0px 1px 5px #ccc; }
 	#nav-bar > #button > input[type=button] { display: inline-block; padding: 10px; margin-right: 5px; color: #fff; float: right; width: 80px; border: none; border: 1px solid #ddd; border-bottom: 4px solid #ddd; cursor: pointer; background-color: #c55; }
+	#nav-bar > #button > a { font-size: 16px; display: inline-block; padding: 10px; margin-right: 5px; color: #fff; float: right; width: 80px; border: none; border: 1px solid #ddd; border-bottom: 4px solid #ddd; cursor: pointer; background-color: #c55; }	
 
-#form { height: auto; background: #fff; padding-bottom: 55px;}
+/* Formulaire */
+#form { height: auto; background: #fff; padding-bottom: 55px; padding: 10px; border-bottom: 1px solid #ccc;}
 	#form > h2 { font-size: 25px; text-align: center; padding-top: 18px;}
 	#form > form { max-width: 500px; margin: 20px auto 0px auto; padding: 0px 10px;}
 		#form > form > input { display: block; box-sizing: border-box; height: 40px; margin-bottom: 20px; padding: 0px; border: 1px solid #ccc; background-color: #eaeaea;}
@@ -13,10 +18,18 @@
 		#form > form > input[type=submit] { display: inline-block; vertical-align: top; width: calc(100% - 100px); margin-right: 20px; border: none; border-bottom: 4px solid #c44; cursor: pointer; background-color: #c55; color: #fff;}
 		#form > form > input[type=reset] { display: inline-block; vertical-align: top; width: 80px; border: none; border: 1px solid #ddd; border-bottom: 4px solid #ddd; cursor: pointer;}
 
+/* Footer */
 #main_footer { display: block; height: auto; background-color: #333; text-align: center; padding: 35px;}
 	#main_footer > p { font-size: 25px; color: #fff; padding-top: 5px; }
 	#main_footer > .devs { display: inline-block; width: 200px; padding: 25px; }
 		#main_footer > .devs > p { text-align: center; font-size: 18px; color: #fff; padding: 5px; }
 		#main_footer > .devs > a > img { width: 100px; }
 
+/* Page de Presentation produit */
+#prod_page { width: 82%; height: auto; margin: auto; padding: 20px;}
+	#prod_page > .bloc_prod { height: auto; display: inline-block; margin: 10px; border: 1px solid #ccc; box-shadow: 1px 1px 0px 1px #ccc; background-color: #fcfcfc;}
+	#prod_page > h2 { text-align: center; font-size: 25px; font-weight: bold; padding-bottom: 15px; }
+		.bloc_prod > h3 { font-size: 15px; text-shadow: 1px 1px 1px 0px #ccc; text-align: center; font-weight: bold; padding-top: 10px; }
+		.bloc_prod > div { height: 150px; width: 150px; background-image: url("../images/pokemon/front/1.png"); background-repeat: no-repeat; background-position: center;}
+		.bloc_prod > input[type=button] { line-height: 5px; text-align: center; display: block; padding: 10px;  font-size: 16px; color: #fff; margin: auto; width: 120px; height: 30px; border: none; border: 1px solid #ddd; border-bottom: 4px solid #ddd; cursor: pointer; background-color: #c55; }
 
