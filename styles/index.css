@@ -1,0 +1,22 @@
+#header { display: block; height: auto; background-color: #c55; box-shadow: 0px 0px 5px 5px #ccc;}
+	#header > h1 { font-size: 50px; font-weight: bold; text-align: center; padding: 25px; color: #fff; text-shadow: 1px 0px 1px #ccc; }
+
+#nav-bar { height: 50px; background-color: #ccc; box-shadow: 5px 0px 1px 5px #ccc; }
+	#nav-bar > #button > input[type=button] { display: inline-block; padding: 10px; margin-right: 5px; color: #fff; float: right; width: 80px; border: none; border: 1px solid #ddd; border-bottom: 4px solid #ddd; cursor: pointer; background-color: #c55; }
+
+#form { height: auto; background: #fff; padding-bottom: 55px;}
+	#form > h2 { font-size: 25px; text-align: center; padding-top: 18px;}
+	#form > form { max-width: 500px; margin: 20px auto 0px auto; padding: 0px 10px;}
+		#form > form > input { display: block; box-sizing: border-box; height: 40px; margin-bottom: 20px; padding: 0px; border: 1px solid #ccc; background-color: #eaeaea;}
+		#form > form > input[type=text] { width: 100%; padding: 0px 10px;}
+		#form > form > input[type=password] { width: 100%; padding: 0px 10px;}
+		#form > form > input[type=submit] { display: inline-block; vertical-align: top; width: calc(100% - 100px); margin-right: 20px; border: none; border-bottom: 4px solid #c44; cursor: pointer; background-color: #c55; color: #fff;}
+		#form > form > input[type=reset] { display: inline-block; vertical-align: top; width: 80px; border: none; border: 1px solid #ddd; border-bottom: 4px solid #ddd; cursor: pointer;}
+
+#main_footer { display: block; height: auto; background-color: #333; text-align: center; padding: 35px;}
+	#main_footer > p { font-size: 25px; color: #fff; padding-top: 5px; }
+	#main_footer > .devs { display: inline-block; width: 200px; padding: 25px; }
+		#main_footer > .devs > p { text-align: center; font-size: 18px; color: #fff; padding: 5px; }
+		#main_footer > .devs > a > img { width: 100px; }
+
+
