@@ -1,0 +1,9 @@
+<?php
+	include("templates/header.php");
+	include("templates/navbar.php");
+	include("templates/connection_form.php");
+	include("templates/slider.php");
+	//include("templates/products.php");
+	//include("templates/panier.php");
+	include("templates/footer.php");
+?>∂

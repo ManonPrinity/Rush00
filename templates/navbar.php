@@ -1,6 +1,6 @@
 <section id="nav-bar">
 	<div id="button">
-		<input type="button" value="SignUp">
-		<input type="button" value="SignIn">
+		<a href="index.php"><input type="button" value="SignUp"></a>
+		<a href="connection.php"><input type="button" value="SignIn"></a>
 	</div>
 </section>
