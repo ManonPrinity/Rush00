@@ -4,8 +4,8 @@
 	include("templates/navbar.php");
 	include("templates/inscription_form.php");
 	include("templates/slider.php");
-	include("templates/products.php");
-	include("templates/panier.php");
+	//include("templates/products.php");
+	//include("templates/panier.php");
 	include("templates/footer.php");
 ?>	
 
