@@ -6,7 +6,7 @@
 /* Nav-Bar */
 #nav-bar { height: 50px; background-color: #ccc; box-shadow: 5px 0px 1px 5px #ccc; }
 	#nav-bar > #button > a > input[type=button] { display: inline-block; padding: 10px; margin-right: 5px; color: #fff; float: right; width: 80px; border: none; border: 1px solid #ddd; border-bottom: 4px solid #ddd; cursor: pointer; background-color: #c55; }
-	#nav-bar > #button > img { display: inline-block; height: 40px;}
+	#nav-bar > #button > a > img { display: inline-block; height: 40px; float: right; padding-right: 10px;}
 
 /* Formulaire */
 #form { height: auto; background: #fff; padding-bottom: 55px; padding: 10px; border-bottom: 1px solid #ccc;}
@@ -26,7 +26,7 @@
 		#main_footer > .devs > a > img { width: 100px; }
 
 /* Page de Presentation produit */
-#prod_page { width: 82%; height: auto; margin: auto; padding: 20px;}
+#prod_page {width: 82%; height: auto; margin: auto; margin-top: 10px; padding: 20px; animation: header_anim 10s linear infinite;border: 1px solid #bbb; background-image: url("../images/pow-star.png"); background-position: center; }
 	#prod_page > .bloc_prod { height: auto; display: inline-block; margin: 10px; border: 1px solid #ccc; box-shadow: 1px 1px 0px 1px #ccc; background-color: #fcfcfc;}
 	#prod_page > h2 { text-align: center; font-size: 25px; font-weight: bold; padding-bottom: 15px; }
 		.bloc_prod > h3 { font-size: 15px; text-shadow: 1px 1px 1px 0px #ccc; text-align: center; font-weight: bold; padding-top: 10px; }
@@ -57,3 +57,10 @@
 
 /* troll */
 #troll{ display: block; margin: auto; font-size: 29px; font-family: "pixel"; text-align: center; padding-bottom: 40px; padding-top: 40px;}
+
+/* Annimation css */
+@keyframes header_anim
+{
+	from { background-position: 0px 0px}
+	to { background-position: 300px 0px}
+}
