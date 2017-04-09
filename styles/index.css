@@ -1,11 +1,12 @@
 
 /* Header */
 #header { display: block; height: auto; background-color: #c55; box-shadow: 0px 0px 5px 5px #ccc;}
-	#header > h1 { font-size: 50px; font-weight: bold; text-align: center; padding: 25px; color: #fff; text-shadow: 1px 0px 1px #ccc; }
+	#header > h1 { font-family: "pixel"; font-size: 50px; font-weight: bold; text-align: center; padding: 25px; color: #fff; text-shadow: 1px 0px 1px #ccc; }
 
 /* Nav-Bar */
 #nav-bar { height: 50px; background-color: #ccc; box-shadow: 5px 0px 1px 5px #ccc; }
 	#nav-bar > #button > a > input[type=button] { display: inline-block; padding: 10px; margin-right: 5px; color: #fff; float: right; width: 80px; border: none; border: 1px solid #ddd; border-bottom: 4px solid #ddd; cursor: pointer; background-color: #c55; }
+	#nav-bar > #button > img { display: inline-block; height: 40px;}
 
 /* Formulaire */
 #form { height: auto; background: #fff; padding-bottom: 55px; padding: 10px; border-bottom: 1px solid #ccc;}
@@ -38,4 +39,21 @@
 	#panier > h2 { text-align: center; font-size: 25px; font-weight: bold; padding-bottom: 15px; }
 		.bloc_prod > h3 { font-size: 15px; text-shadow: 1px 1px 1px 0px #ccc; text-align: center; font-weight: bold; padding-top: 10px; }
 		.bloc_prod > div { height: 150px; width: 150px; /*background-image: url("../img/front/1.png"); background-repeat: no-repeat; background-position: center;*/}
-		.bloc_prod > input[type=button] { line-height: 5px; text-align: center; display: block; padding: 10px;  font-size: 16px; color: #fff; margin: auto; width: 120px; height: 30px; border: none; border: 1px solid #ddd; border-bottom: 4px solid #ddd; cursor: pointer; background-color: #c55; }
+		#panier > a > input[type=button] { text-decoration: none; line-height: 5px; text-align: center; display: block; padding: 10px;  font-size: 16px; color: #fff; margin: auto; width: 120px; height: 30px; border: none; border: 1px solid #ddd; border-bottom: 4px solid #ddd; cursor: pointer; background-color: #c55; }
+
+/* Panel admin */
+#left_aside { float: left; height: 100%; width: 15%; background-color: #FFBFBA; box-shadow: 5px 0px 10px 0px #ccc;}
+	#left_aside > a > img { display: block; padding: 10%; margin: auto; width: 50%; padding-top: 100px;}
+
+#main_container { float: right; width: 84%; height: 100%; }
+	#main_container > h2 { display: block; margin: auto; font-size: 25px; padding-bottom: 3%; padding-top: 1%;}
+	#main_container > .bloc_adm { height: 9%; border: 1px solid #aaa; box-shadow: 1px 1px 0px 1px #ccc; background-color: #fcfcfc;  }
+		#main_container > .bloc_adm > img { display: inline-block; height: 95%; border: 1px solid #aaa; margin-top: 0.25%; margin-left: 0.25%;}
+		#main_container > .bloc_adm > input[type=text] { float: right; display: inline-block; height: 40%; width: 25%; margin: 30px; border: 1px solid #ccc; background-color: #eaeaea;}
+		#main_container > .bloc_adm > input[type=submit] { float: right; display: inline-block; width: 50px; margin-right: 20px; border: none; border-bottom: 4px solid #c44; cursor: pointer; background-color: #c55; color: #fff; margin-top: 3%}
+
+		#main_container > .bloc_adm > p { display: inline-block; font font-size: 16px;}
+
+
+/* troll */
+#troll{ display: block; margin: auto; font-size: 29px; font-family: "pixel"; text-align: center; padding-bottom: 40px; padding-top: 40px;}

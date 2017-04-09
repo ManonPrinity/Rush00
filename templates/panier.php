@@ -15,10 +15,11 @@
 						echo '<div class="bloc_prod">
 						<h3>'.$poke->name.'</h3>
 						<div><img src="img/front/'.$poke->id.'.png" style="width:100%"></div>
-						<input type="button" name="VOIR" value="Voir">
+						<input type="button" name="VOIR" value="50$">
 						</div>"';
 				}
 			}
 		}
 	?>
+	<a href="troll.php"><input type="button" value="Payer"/></a>
 </section>

@@ -6,4 +6,4 @@
 	//include("templates/products.php");
 	//include("templates/panier.php");
 	include("templates/footer.php");
-?>∂
+?>

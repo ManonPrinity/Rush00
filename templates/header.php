@@ -10,5 +10,5 @@
 	</head>
 	<body>
 		<section id="header">
-			<h1>E-commerce</h1>
+			<h1>PokeShop</h1>
 		</section>
