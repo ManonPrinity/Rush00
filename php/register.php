@@ -9,19 +9,20 @@ if ($_POST['name'] && $_POST['password'])
       ); 
 	if (!file_exists("../private"))
 		mkdir("../private");
-	else if (file_exists("../private/BDDJSONXD"))
+	else if (file_exists("../private/dataBase"))
 	{
-		$data = json_decode((file_get_contents("../private/BDDJSONXD")));
+		$data = unserialize((file_get_contents("../private/dataBase")));
 		foreach ($data['Users'] as $d) {
 			if ($d['login'] === $login)
 			{
-				header('Location: index.php');
+				echo "login already taken<br/>";
+				// header('Location: ../index.php');
 				return;
 			}
 		}
 	}
 	$data['Users'][] = $logs;
-	file_put_contents("../private/BDDJSONXD", json_encode($data));
+	file_put_contents("../private/dataBase", serialize($data));
 }
-header('Location: ../index.php');
+// header('Location: ../index.php');
 ?>

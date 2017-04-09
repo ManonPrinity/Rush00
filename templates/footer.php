@@ -6,6 +6,6 @@
 	</div>
 	<div class="devs">
 		<p>Joey</p>
-		<a href="#"><img src="images/git1.svg"/></a>
+		<a href="http://github.com/joplevy"><img src="images/git1.svg"/></a>
 	</div>
 </footer>
