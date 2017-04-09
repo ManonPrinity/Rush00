@@ -31,7 +31,7 @@
 	#prod_page > h2 { text-align: center; font-size: 25px; font-weight: bold; padding-bottom: 15px; }
 		.bloc_prod > h3 { font-size: 15px; text-shadow: 1px 1px 1px 0px #ccc; text-align: center; font-weight: bold; padding-top: 10px; }
 		.bloc_prod > div { height: 150px; width: 150px; /*background-image: url("../img/front/1.png"); background-repeat: no-repeat; background-position: center;*/}
-		.bloc_prod > input[type=button] { line-height: 5px; text-align: center; display: block; padding: 10px;  font-size: 16px; color: #fff; margin: auto; width: 120px; height: 30px; border: none; border: 1px solid #ddd; border-bottom: 4px solid #ddd; cursor: pointer; background-color: #c55; }
+		.bloc_prod > a > input[type=button] { line-height: 5px; text-align: center; display: block; padding: 10px;  font-size: 16px; color: #fff; margin: auto; width: 120px; height: 30px; border: none; border: 1px solid #ddd; border-bottom: 4px solid #ddd; cursor: pointer; background-color: #c55; }
 
 /* Page Panier (copier coler de produit)*/
 #panier { width: 82%; height: auto; margin: auto; padding: 20px;}
@@ -54,6 +54,12 @@
 
 		#main_container > .bloc_adm > p { display: inline-block; font font-size: 16px;}
 
+/*Page de Pokemon (POKE_PAGE) */
+
+#pokepage { height: 80%; width: 90%; border: 1px solid #aaa; box-shadow: 1px 1px 0px 1px #ccc; animation: header_anim 10s linear infinite; background-image: url("../images/pow-star.png"); margin: auto; margin-top: 10px;}
+	#pokepage > img { height: 28%; border: 1px solid #bbb; box-shadow: 1px 1px 0px 1px #ccc; background-color: #fafafa; margin: 10px;  float: left;}
+	#pokepage > #name { text-align: center; font-size: 35px; margin: 15px; font-family: "pixel"; }
+	#pokepage > #desc { display: block; text-align: center; font-size: 30px; margin: 15px; height: auto; width: 42%}
 
 /* troll */
 #troll{ display: block; margin: auto; font-size: 29px; font-family: "pixel"; text-align: center; padding-bottom: 40px; padding-top: 40px;}

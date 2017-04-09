@@ -8,7 +8,7 @@
 			echo '<div class="bloc_prod">
 			<h3>'.$poke->name.'</h3>
 			<div><img src="img/front/'.$poke->id.'.png" style="width:100%"></div>
-			<input type="button" name="VOIR" value="Voir"/>
+			<a href="poke_page.php"><input type="button" name="VOIR" value="Voir"/></a>
 			</div>"';
 		}
 	?>
