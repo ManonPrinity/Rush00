@@ -1,28 +1,20 @@
 <?php
+	include("head.php");
 if ($_POST['name'] && $_POST['password'])
 {
 	$login = $_POST['name'];
 	$password = hash('whirlpool', $_POST['password']);
-	$logs = array(
-      "login" => $login,
-      "password" => $password,
-      ); 
-	if (!file_exists("../private"))
-		mkdir("../private");
-	else if (file_exists("../private/dataBase"))
+	$user = "SELECT * FROM User WHERE name = '".$_POST['name']."'";
+	$pris = mysqli_query($db, $user);
+	if ($pris->fetch_object())
+		header('Location: ../index.php');
+	else
 	{
-		$data = unserialize((file_get_contents("../private/dataBase")));
-		foreach ($data['Users'] as $d) {
-			if ($d['login'] === $login)
-			{
-				echo "login already taken<br/>";
-				// header('Location: ../index.php');
-				return;
-			}
-		}
+		$user = "INSERT INTO User (`name`, `pass`, `admin`) VALUES ('".$login."', '".$password."', 0)";
+		mysqli_query($db, $user);
+		$_SESSION['log'] = $login;
+		header('Location: ../page_produit.php');
 	}
-	$data['Users'][] = $logs;
-	file_put_contents("../private/dataBase", serialize($data));
 }
-// header('Location: ../index.php');
+header('Location: ../index.php');
 ?>

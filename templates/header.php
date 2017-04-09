@@ -1,3 +1,6 @@
+<?php
+	include("php/head.php");
+?>
 <!DOCTYPE html>
 <html>
 	<head>

@@ -7,10 +7,21 @@
 </aside>
 <section id="main_container">
 	<h2>Panel Admin</h2>
-	<div class="bloc_adm">
-		<img src="img/front/1.png"/>
+	<?php
+	$sql = "SELECT * FROM `Pokemon`";
+	$poke = mysqli_query($db, $sql);
+	while ($obj = $poke->fetch_object())
+	{
+		echo '<div class="bloc_adm">
+		<form action="php/edit_poke.php" method="post">
+		<img src="img/front/'.$obj->id.'.png"/>
+		<input type="hidden" name="id" value = "'.$obj->id.'">
+		<input type="text" name="prix" value="'.$obj->prix.'">
+		<input type="text" name="name" value="'.$obj->name.'">
 		<input type="submit" value="OK">
-		<input type="text" value="Prix">
-		<input type="text" value="Name">
-	</div>
+		</form>
+		</div>';
+	}
+	?>
+		
 </section>
