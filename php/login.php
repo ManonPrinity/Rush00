@@ -1,7 +1,5 @@
 <?php
-	session_start();
-	$db = new mysqli('localhost', 'root', 'root', 'PokeShop');
-	// include("head.php");
+	include("head.php");
 if ($_POST['name'] && $_POST['password'])
 {
 	$login = $_POST['name'];
@@ -12,6 +10,7 @@ if ($_POST['name'] && $_POST['password'])
 	{
 		$_SESSION['log'] = $login;
 		header('Location: ../page_produit.php');
+		return;
 	}
 	else
 		header('Location: ../index.php');

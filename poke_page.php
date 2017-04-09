@@ -9,7 +9,7 @@
 		$sql = "SELECT * FROM `Pokemon` WHERE id = ".$id;
 		$poke = mysqli_query($db, $sql);
 		$poke = $poke->fetch_object();
-		echo '<img src="img/front/'.$id.'.png"><p id="name">'.$poke->name.'</p><p id="desc">height = '.$poke->height.'</br>weidth = '.$poke->weidth.'</br>hp = '.$poke->hp.'</br>attack = '.$poke->attack.'</br>defense = '.$poke->defense.'</br>specialAttack = '.$poke->specialAttack.'</br>specialDefense = '.$poke->specialDefense.'</br>speed = '.$poke->speed.'</br>total = '.$poke->total.'</br>prix = '.$poke->prix.'</br></p>';
+		echo '<img src="img/front/'.$id.'.png"><p id="name">'.$poke->name.'</p><p id="desc">height = '.$poke->height.'</br>weidth = '.$poke->weidth.'</br>hp = '.$poke->hp.'</br>attack = '.$poke->attack.'</br>defense = '.$poke->defense.'</br>specialAttack = '.$poke->specialAttack.'</br>specialDefense = '.$poke->specialDefense.'</br>speed = '.$poke->speed.'</br>total = '.$poke->total.'</br>prix = '.$poke->prix.'</br></p><a href="php/add_poke.php?id='.$id.'"><input type="button" value="Ajouter au pokébag"></a>';
 	?>
 </section>
 
